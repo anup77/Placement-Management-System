@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>COMPANY</title>
+  </head>
+  <body>
+
+    <table class="table table-striped">
+      
+
+
+
+
+        <tbody>
+    <% if(items.length > 0){ %>
+      <%   for(var i = 0;i < items.length;i++) { %>
+      <tr>
+      <td><%= items[i].c_name %></td>
+      <!-- <td><%= items[i].usn %></td> -->
+      </tr>
+        <% } %>
+    <% }  %>
+
+
+      <tbody>
+
+      </tbody>
+    </table>
+
+
+  </body>
+</html>
